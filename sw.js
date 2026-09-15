@@ -1,4 +1,4 @@
-const CACHE='atelie-maria-v6';
+const CACHE='atelie-maria-v10';
 const CORE=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./logo_horizontal.png','./logotipo%20vertical%20500px.png','./favicon_e_pwa_icon.png','./assets/icon-192.png','./assets/icon-512.png','./assets/icon-maskable-512.png','./assets/fotos/1001250772.webp'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(CORE)))});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('atelie-maria-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()))});

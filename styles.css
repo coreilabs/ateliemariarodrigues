@@ -14,4 +14,52 @@ input,select,textarea{font-size:16px;line-height:1.6}
 @media(max-width:900px){nav{white-space:normal}.menu-toggle{font-weight:600}.hero .eyebrow{line-height:1.7}.form-row{grid-template-columns:1fr;gap:0}.submit-button{padding-inline:16px;gap:10px}.values-strip{letter-spacing:.3px}.category-title small{letter-spacing:.5px}}
 
 .hero-mobile-logo{display:none}
+/* Equal text rows keep photographs and titles aligned without truncation. */
+.gallery{align-items:stretch}
+.gallery-item{display:grid;grid-template-rows:auto auto 1fr;align-content:start;align-items:start}
+.gallery-item .gallery-photo{width:100%}
+.gallery-item small{min-height:3.4em;line-height:1.7}
+.gallery-item h3{min-height:2.4em;line-height:1.2;overflow-wrap:anywhere}
+@supports(grid-template-rows:subgrid){
+  .gallery-item{grid-row:span 3;grid-template-rows:subgrid;row-gap:0}
+  .gallery-item h3{margin-bottom:28px}
+  .gallery{row-gap:0}
+}
+/* The header and WhatsApp action stay outside the scrolling content. */
+#lightbox[open]{display:flex;flex-direction:column;height:min(90dvh,900px);overflow:hidden}
+.lightbox-header{display:flex;align-items:center;justify-content:space-between;flex:0 0 auto;padding:8px 14px 8px 22px;border-bottom:1px solid var(--line);background:var(--paper);gap:15px}
+.lightbox-header>span{font-size:14px;font-weight:600;color:var(--muted)}
+#lightbox .dialog-close{position:static;flex-shrink:0}
+.lightbox-scroll{flex:1 1 auto;min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior-y:contain;display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);align-items:start}
+.lightbox-footer{flex:0 0 auto;background:var(--paper);border-top:1px solid var(--line);padding:14px 22px max(14px,env(safe-area-inset-bottom));display:flex;justify-content:center}
+#photo-contact{background:#178b4c;border-color:#178b4c;color:white;gap:12px;width:100%;max-width:500px;min-height:52px;padding:13px 16px}
+#photo-contact:hover{background:#116c3a;border-color:#116c3a}
+#photo-contact svg{width:24px;height:24px;flex-shrink:0}
+@media(max-width:900px){.lightbox-scroll{display:block}.lightbox-footer{padding:12px 14px max(12px,env(safe-area-inset-bottom))}#lightbox[open]{height:94dvh;max-height:94dvh}}
+.gallery-item .gallery-photo{height:auto;aspect-ratio:2 / 3}
+.gallery-photo img{object-fit:contain}
+.gallery-item:hover img{transform:none}
+.category-photo,.category-tall .category-photo{height:auto;aspect-ratio:2 / 3}
+.category-photo img{object-fit:contain;object-position:center}
+.category:hover img{transform:none}
+.lightbox-image{min-width:0;min-height:0;display:block;align-self:start}
+.photo-track{display:flex;width:100%;height:min(78dvh,750px);overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;scrollbar-width:none}
+.photo-track::-webkit-scrollbar{display:none}
+.photo-slide{flex:0 0 100%;min-width:0;height:100%;scroll-snap-align:start;scroll-snap-stop:always;display:flex;align-items:center;justify-content:center}
+.photo-slide img{width:100%;height:100%;object-fit:contain;user-select:none}
+.photo-arrow{display:grid;place-items:center;width:44px;height:44px;transform:translateY(-50%);box-shadow:0 2px 8px #0002}
+.photo-arrow:disabled{opacity:.35;pointer-events:none}
+#lightbox{overflow-x:hidden}
+.lightbox-details{min-width:0}
+@media(max-width:900px){.photo-track{height:min(64dvh,650px)}.lightbox-details{padding:22px}.lightbox-details h3{font-size:28px}}
+@media(max-width:700px){
+  .gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 14px}
+  .gallery-item .gallery-photo{height:auto;aspect-ratio:2 / 3}
+  .gallery-item h3{font-size:24px}
+  .gallery-item small{font-size:12px}
+  #lightbox{width:96%;max-height:94dvh}
+  .photo-track{height:min(65dvh,144vw)}
+}
 @media(max-width:700px){.hero-mobile-logo{display:block;width:min(85%, 340px);height:auto;aspect-ratio:1 / 1;object-fit:contain;align-self:center;justify-self:center;max-width:100%}.hero{padding-top:24px;row-gap:28px}}
+
+@supports(grid-template-rows:subgrid){.gallery{row-gap:0}}

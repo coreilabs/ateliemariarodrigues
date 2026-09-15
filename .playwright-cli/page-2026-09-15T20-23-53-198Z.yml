@@ -1,0 +1,308 @@
+- generic [active] [ref=e1]:
+  - link "Pular para o conteúdo" [ref=e2] [cursor=pointer]:
+    - /url: "#conteudo"
+  - generic [ref=e3]: Feito à mão. Pensado para você. Encomendas pelo WhatsApp ↗
+  - banner [ref=e4]:
+    - link "Ateliê Maria Rodrigues, início" [ref=e5] [cursor=pointer]:
+      - /url: "#inicio"
+      - img "Maria Rodrigues" [ref=e6]
+    - navigation "Menu principal" [ref=e7]:
+      - link "O que fazemos" [ref=e8] [cursor=pointer]:
+        - /url: "#universos"
+      - link "As criações" [ref=e9] [cursor=pointer]:
+        - /url: "#galeria"
+      - link "O ateliê" [ref=e10] [cursor=pointer]:
+        - /url: "#atelie"
+      - link "Vamos criar juntas ↗" [ref=e11] [cursor=pointer]:
+        - /url: "#encomendar"
+  - main [ref=e12]:
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - paragraph [ref=e15]: ATELIÊ MARIA RODRIGUES · CROCHÊ AUTORAL
+        - heading [level=1] [ref=e16]:
+          - text: Seu jeito,em cada
+          - emphasis [ref=e17]: ponto.
+        - paragraph [ref=e18]: Há coisas que só as mãos conseguem contar.Peças em crochê para vestir, presentear e fazer parte da sua história.
+        - link "Explore as criações ↗" [ref=e19] [cursor=pointer]:
+          - /url: "#galeria"
+          - text: Explore as criações
+          - generic [ref=e20]: ↗
+        - link "Tenho uma ideia para encomendar →" [ref=e21] [cursor=pointer]:
+          - /url: "#encomendar"
+        - generic [ref=e22]:
+          - generic [ref=e23]: ✳
+          - generic [ref=e24]:
+            - text: Entre fios, tempo e cuidado.
+            - strong [ref=e25]: Cada peça tem seu encanto.
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - img "Bolsa e chinelos com detalhes em crochê dourado entre folhagens" [ref=e28]
+          - generic [ref=e29]: FEITO À MÃO, PARA SER SEU
+        - generic [ref=e30]: UM FIO DE AFETO✳EM CADA CRIAÇÃO
+        - paragraph [ref=e33]:
+          - generic [ref=e34]: 01 / Bolsas que levam histórias
+          - generic [ref=e35]: Por Maria Rodrigues
+    - generic [ref=e36]:
+      - generic [ref=e37]: Feito à mão
+      - generic [ref=e38]: ✳
+      - generic [ref=e39]: Cores que combinam com você
+      - generic [ref=e40]: ✳
+      - generic [ref=e41]: Possibilidades em cada fio
+      - generic [ref=e42]: ✳
+      - generic [ref=e43]: Encomendas personalizadas
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - paragraph [ref=e47]: UM MATERIAL, TANTAS POSSIBILIDADES
+          - heading [level=2] [ref=e48]:
+            - text: Crochê para os seus
+            - emphasis [ref=e49]: pequenos e grandes momentos.
+        - paragraph [ref=e50]: Da bolsa que acompanha o dia à mesa que reúne quem você ama. Encontre a sua inspiração.
+      - generic [ref=e51]:
+        - link "Bolsa e chinelos em tons de mostarda sobre folhas verdes 01 / PARA LEVAR COM VOCÊ Bolsas & acessórios ↗" [ref=e52] [cursor=pointer]:
+          - /url: "#galeria"
+          - img "Bolsa e chinelos em tons de mostarda sobre folhas verdes" [ref=e54]
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - text: 01 / PARA LEVAR COM VOCÊ
+              - heading "Bolsas & acessórios" [level=3] [ref=e57]
+            - generic [ref=e58]: ↗
+        - link "Vestido longo claro feito à mão em crochê 02 / PARA VESTIR SEU JEITO Moda em crochê ↗" [ref=e59] [cursor=pointer]:
+          - /url: "#galeria"
+          - img "Vestido longo claro feito à mão em crochê" [ref=e61]
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - text: 02 / PARA VESTIR SEU JEITO
+              - heading "Moda em crochê" [level=3] [ref=e64]
+            - generic [ref=e65]: ↗
+        - link "Mesa posta com sousplat de crochê e xícara floral 03 / PARA ACOLHER Casa & mesa ↗" [ref=e66] [cursor=pointer]:
+          - /url: "#galeria"
+          - img "Mesa posta com sousplat de crochê e xícara floral" [ref=e68]
+          - generic [ref=e69]:
+            - generic [ref=e70]:
+              - text: 03 / PARA ACOLHER
+              - heading "Casa & mesa" [level=3] [ref=e71]
+            - generic [ref=e72]: ↗
+    - generic [ref=e73]:
+      - generic [ref=e74]:
+        - img "Detalhes de uma composição de mesa com crochê artesanal e guardanapo verde" [ref=e75]
+        - generic [ref=e76]: O cuidado mora nos detalhes.
+      - generic [ref=e77]:
+        - paragraph [ref=e78]: CONHEÇA O ATELIÊ
+        - heading [level=2] [ref=e79]:
+          - text: Mãos que criam.
+          - emphasis [ref=e80]: Peças que ficam.
+        - paragraph [ref=e81]: No Ateliê Maria Rodrigues, o crochê ganha forma em roupas, bolsas, acessórios e detalhes para a casa. Cada criação nasce do encontro entre os fios e uma ideia.
+        - paragraph [ref=e82]: Uma cor favorita, uma ocasião especial ou uma referência que você guardou. Conte para Maria o que imaginou e descubram juntas como transformar essa vontade em uma peça feita à mão.
+        - link "Vamos dar forma à sua ideia ↗" [ref=e83] [cursor=pointer]:
+          - /url: "#encomendar"
+          - text: Vamos dar forma à sua ideia
+          - generic [ref=e84]: ↗
+        - img "Maria Rodrigues" [ref=e85]
+    - generic [ref=e86]:
+      - generic [ref=e87]:
+        - generic [ref=e88]:
+          - paragraph [ref=e89]: UM POUCO DO QUE JÁ SAIU DAS NOSSAS MÃOS
+          - heading [level=2] [ref=e90]:
+            - text: Fios que viraram
+            - emphasis [ref=e91]: criações.
+        - paragraph [ref=e92]: Explore os detalhes. Encontrou uma inspiração?Toque na foto para ver de perto e conversar com Maria.
+      - generic [ref=e93]:
+        - group "Filtrar criações" [ref=e94]:
+          - button "Todas" [pressed] [ref=e95] [cursor=pointer]
+          - button "Moda" [ref=e96] [cursor=pointer]
+          - button "Bolsas & acessórios" [ref=e97] [cursor=pointer]
+          - button "Casa & mesa" [ref=e98] [cursor=pointer]
+        - generic [ref=e99]: 37 criações
+      - region "Galeria de criações" [ref=e100]:
+        - button "Ver Bolsa e chinelos em tons de mel" [ref=e101] [cursor=pointer]:
+          - generic [ref=e102]:
+            - img "Bolsa e chinelos em tons de mel" [ref=e103]
+            - text: Ver de perto ↗
+          - generic [ref=e104]: Bolsas e acessórios
+          - heading "Bolsa e chinelos em tons de mel" [level=3] [ref=e105]
+        - button "Ver Vestido em crochê natural" [ref=e106] [cursor=pointer]:
+          - generic [ref=e107]:
+            - img "Vestido em crochê natural" [ref=e108]
+            - text: Ver de perto ↗
+          - generic [ref=e109]: Moda
+          - heading "Vestido em crochê natural" [level=3] [ref=e110]
+        - button "Ver Afeto à mesa" [ref=e111] [cursor=pointer]:
+          - generic [ref=e112]:
+            - img "Afeto à mesa" [ref=e113]
+            - text: Ver de perto ↗
+          - generic [ref=e114]: Casa e mesa
+          - heading "Afeto à mesa" [level=3] [ref=e115]
+        - button "Ver Bolsa azul com corrente" [ref=e116] [cursor=pointer]:
+          - generic [ref=e117]:
+            - img "Bolsa azul com corrente" [ref=e118]
+            - text: Ver de perto ↗
+          - generic [ref=e119]: Bolsas e acessórios
+          - heading "Bolsa azul com corrente" [level=3] [ref=e120]
+        - button "Ver Conjunto verde" [ref=e121] [cursor=pointer]:
+          - generic [ref=e122]:
+            - img "Conjunto verde" [ref=e123]
+            - text: Ver de perto ↗
+          - generic [ref=e124]: Moda
+          - heading "Conjunto verde" [level=3] [ref=e125]
+        - button "Ver Mesa em tons naturais" [ref=e126] [cursor=pointer]:
+          - generic [ref=e127]:
+            - img "Mesa em tons naturais" [ref=e128]
+            - text: Ver de perto ↗
+          - generic [ref=e129]: Casa e mesa
+          - heading "Mesa em tons naturais" [level=3] [ref=e130]
+        - button "Ver Bolsa e chinelos entre folhagens" [ref=e131] [cursor=pointer]:
+          - generic [ref=e132]:
+            - img "Bolsa e chinelos entre folhagens" [ref=e133]
+            - text: Ver de perto ↗
+          - generic [ref=e134]: Bolsas e acessórios
+          - heading "Bolsa e chinelos entre folhagens" [level=3] [ref=e135]
+        - button "Ver Vestido vermelho" [ref=e136] [cursor=pointer]:
+          - generic [ref=e137]:
+            - img "Vestido vermelho" [ref=e138]
+            - text: Ver de perto ↗
+          - generic [ref=e139]: Moda
+          - heading "Vestido vermelho" [level=3] [ref=e140]
+        - button "Ver Conjunto rosa" [ref=e141] [cursor=pointer]:
+          - generic [ref=e142]:
+            - img "Conjunto rosa" [ref=e143]
+            - text: Ver de perto ↗
+          - generic [ref=e144]: Moda
+          - heading "Conjunto rosa" [level=3] [ref=e145]
+        - button "Ver Top rosa e azul" [ref=e146] [cursor=pointer]:
+          - generic [ref=e147]:
+            - img "Top rosa e azul" [ref=e148]
+            - text: Ver de perto ↗
+          - generic [ref=e149]: Moda
+          - heading "Top rosa e azul" [level=3] [ref=e150]
+        - button "Ver Saída em crochê claro" [ref=e151] [cursor=pointer]:
+          - generic [ref=e152]:
+            - img "Saída em crochê claro" [ref=e153]
+            - text: Ver de perto ↗
+          - generic [ref=e154]: Moda
+          - heading "Saída em crochê claro" [level=3] [ref=e155]
+        - button "Ver Bolsa com franjas" [ref=e156] [cursor=pointer]:
+          - generic [ref=e157]:
+            - img "Bolsa com franjas" [ref=e158]
+            - text: Ver de perto ↗
+          - generic [ref=e159]: Bolsas e acessórios
+          - heading "Bolsa com franjas" [level=3] [ref=e160]
+        - button "Ver Vestido azul estampado" [ref=e161] [cursor=pointer]:
+          - generic [ref=e162]:
+            - img "Vestido azul estampado" [ref=e163]
+            - text: Ver de perto ↗
+          - generic [ref=e164]: Moda
+          - heading "Vestido azul estampado" [level=3] [ref=e165]
+        - button "Ver Top verde com franjas" [ref=e166] [cursor=pointer]:
+          - generic [ref=e167]:
+            - img "Top verde com franjas" [ref=e168]
+            - text: Ver de perto ↗
+          - generic [ref=e169]: Moda
+          - heading "Top verde com franjas" [level=3] [ref=e170]
+        - button "Ver Mesa em verde e amarelo" [ref=e171] [cursor=pointer]:
+          - generic [ref=e172]:
+            - img "Mesa em verde e amarelo" [ref=e173]
+            - text: Ver de perto ↗
+          - generic [ref=e174]: Casa e mesa
+          - heading "Mesa em verde e amarelo" [level=3] [ref=e175]
+        - button "Ver Bolsa em tom natural" [ref=e176] [cursor=pointer]:
+          - generic [ref=e177]:
+            - img "Bolsa em tom natural" [ref=e178]
+            - text: Ver de perto ↗
+          - generic [ref=e179]: Bolsas e acessórios
+          - heading "Bolsa em tom natural" [level=3] [ref=e180]
+      - generic [ref=e181]:
+        - paragraph [ref=e182]: Peças já criadas no ateliê. Novas encomendas podem ganhar outras cores e medidas.
+        - button "Ver mais criações +" [ref=e183] [cursor=pointer]:
+          - text: Ver mais criações
+          - generic [ref=e184]: +
+    - generic [ref=e185]:
+      - paragraph [ref=e186]: DA SUA IDEIA ÀS MÃOS DE MARIA
+      - heading [level=2] [ref=e187]:
+        - text: Vamos criar algo
+        - emphasis [ref=e188]: seu?
+      - generic [ref=e189]:
+        - generic [ref=e190]:
+          - text: "01"
+          - heading "Conte sua ideia" [level=3] [ref=e191]
+          - paragraph [ref=e192]: Escolha uma inspiração da galeria ou descreva a peça que você imaginou.
+        - generic [ref=e193]:
+          - text: "02"
+          - heading "Combinem os detalhes" [level=3] [ref=e194]
+          - paragraph [ref=e195]: Cores, medidas, materiais, valor e prazo são definidos com Maria pelo WhatsApp.
+        - generic [ref=e196]:
+          - text: "03"
+          - heading "A criação ganha forma" [level=3] [ref=e197]
+          - paragraph [ref=e198]: Com tudo combinado, é hora de transformar fios em uma peça com a sua personalidade.
+    - generic [ref=e199]:
+      - generic [ref=e200]:
+        - paragraph [ref=e201]: SEU PRÓXIMO CROCHÊ COMEÇA AQUI
+        - heading [level=2] [ref=e202]:
+          - text: Você imagina.
+          - emphasis [ref=e203]: Maria tece.
+        - paragraph [ref=e204]: Conte um pouquinho do que deseja. Vamos organizar sua mensagem para você continuar a conversa pelo WhatsApp.
+        - link [ref=e205] [cursor=pointer]:
+          - /url: https://wa.me/556292300002?text=Ol%C3%A1%2C%20Maria!%20Gostaria%20de%20conversar%20sobre%20uma%20pe%C3%A7a%20em%20croch%C3%AA.
+          - generic [ref=e208]:
+            - text: Prefere conversar diretamente?
+            - strong [ref=e209]: Fale com Maria ↗
+        - paragraph [ref=e210]: Cada encomenda é única. Valores, disponibilidade e prazos são combinados na conversa.
+      - generic [ref=e211]:
+        - generic [ref=e212]:
+          - generic [ref=e213]:
+            - text: Como você se chama? *
+            - textbox "Como você se chama? *" [ref=e214]:
+              - /placeholder: Seu nome
+          - generic [ref=e215]:
+            - text: O que vamos criar? *
+            - combobox "O que vamos criar? *" [ref=e216]:
+              - option "Selecione uma opção" [selected]
+              - option "Bolsa ou acessório"
+              - option "Roupa em crochê"
+              - option "Peça para casa ou mesa"
+              - option "Amigurumi ou presente"
+              - option "Outra ideia em crochê"
+        - generic [ref=e217]:
+          - generic [ref=e218]:
+            - text: Cores desejadas
+            - textbox "Cores desejadas" [ref=e219]:
+              - /placeholder: "Ex.: cru, dourado, verde..."
+          - generic [ref=e220]:
+            - text: Tamanho ou medidas
+            - textbox "Tamanho ou medidas" [ref=e221]:
+              - /placeholder: Se já souber
+        - generic [ref=e222]:
+          - generic [ref=e223]:
+            - text: Quantidade
+            - spinbutton "Quantidade" [ref=e224]: "1"
+          - generic [ref=e225]:
+            - text: Data desejada
+            - textbox "Data desejada" [ref=e226]
+        - generic [ref=e227]:
+          - text: Conte sua ideia
+          - textbox "Conte sua ideia" [ref=e228]:
+            - /placeholder: Como você imagina sua peça? Você pode enviar uma foto de referência na conversa.
+        - button "Continuar no WhatsApp ↗" [ref=e229] [cursor=pointer]:
+          - text: Continuar no WhatsApp
+          - generic [ref=e232]: ↗
+        - paragraph [ref=e233]: Você revisa e envia a mensagem no WhatsApp. Os dados deste formulário não ficam armazenados no site.
+        - status
+    - generic [ref=e234]:
+      - text: ✳
+      - paragraph [ref=e235]:
+        - text: Feito de fios.
+        - emphasis [ref=e236]: Cheio de significado.
+      - link "Voltar ao início ↑" [ref=e237] [cursor=pointer]:
+        - /url: "#inicio"
+  - contentinfo [ref=e238]:
+    - img "Ateliê Maria Rodrigues" [ref=e239]
+    - generic [ref=e240]:
+      - paragraph [ref=e241]: Crochê feito à mão, do seu jeito.
+      - generic [ref=e242]: © 2026 Ateliê Maria Rodrigues
+    - generic [ref=e243]:
+      - link "Converse com Maria ↗" [ref=e244] [cursor=pointer]:
+        - /url: https://wa.me/556292300002
+      - button "Como instalar no celular" [ref=e245] [cursor=pointer]
+  - link "Pedir orçamento a Maria pelo WhatsApp" [ref=e246] [cursor=pointer]:
+    - /url: https://wa.me/556292300002?text=Ol%C3%A1%2C%20Maria!%20Gostaria%20de%20pedir%20um%20or%C3%A7amento.
+    - generic: Vamos conversar?
