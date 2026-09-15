@@ -1,6 +1,6 @@
 # Ateliê Maria Rodrigues
 
-Site estático em português com portfólio de 37 fotografias, filtros, ampliação com swipe e teclado, formulário de orçamento pelo WhatsApp e PWA.
+Site estático em português com portfólio de 38 fotografias, filtros, ampliação com swipe e teclado, formulário de orçamento pelo WhatsApp e PWA.
 
 ## Executar localmente
 
